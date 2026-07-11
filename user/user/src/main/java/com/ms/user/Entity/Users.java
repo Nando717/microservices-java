@@ -23,6 +23,6 @@ class Users implements Serializable {
     private String name;
 
     @Column(nullable = false, length = 150)
-    private String age;
+    private Integer age;
 
 }
