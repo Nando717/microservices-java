@@ -25,4 +25,7 @@ class Users implements Serializable {
     @Column(nullable = false, length = 150)
     private Integer age;
 
+    @Column(nullable = false, length = 100)
+    private String email;
+
 }
